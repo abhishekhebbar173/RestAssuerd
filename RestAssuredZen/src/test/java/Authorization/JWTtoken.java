@@ -14,6 +14,10 @@ public class JWTtoken {
 		// TODO Auto-generated method stub
 				RestAssured.baseURI="https://jsonplaceholder.typicode.com";
 				
+
+				System.out.println("API Testing started");
+				System.out.println("API Testing newly added started");
+
 				System.out.println("API Testing Added in main branch started");
 		       System.out.println("new added in main branch");
 				
@@ -25,7 +29,7 @@ public class JWTtoken {
 			    		 when().log().all().
 			    		 post("http://localhost:8000/user/authenticate").
 			    		 then().log().all().
-			    		 assertThat().statusCode(200).
+			    		 assertThat().statusCode(401).
 			    		 extract().response().asString();
 			    		 
 				

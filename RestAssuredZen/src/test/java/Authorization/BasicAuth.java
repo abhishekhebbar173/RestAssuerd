@@ -14,6 +14,7 @@ public class BasicAuth {
 				RestAssured.baseURI="https://jsonplaceholder.typicode.com";
 				
 				System.out.println("API Testing started");
+
 				System.out.println("API Testing  is started 2nd tester changes");
 				System.out.println("API Testing started 3 tester changes 12323456767");
 				
@@ -31,7 +32,7 @@ public class BasicAuth {
 				given().auth().basic("postman","password").
 				when().log().all().get("https://postman-echo.com/basic-auth").
 				then().log().all().assertThat().statusCode(200).
-				body("authenticated", is(true));
+				body("authenticat", is(true));
 				
 				
 				
