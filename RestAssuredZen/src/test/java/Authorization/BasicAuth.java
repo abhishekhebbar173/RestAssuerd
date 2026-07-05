@@ -14,8 +14,9 @@ public class BasicAuth {
 				RestAssured.baseURI="https://jsonplaceholder.typicode.com";
 				
 				System.out.println("API Testing started");
-				System.out.println("API Testing  is started 2nd tester changes 123");
-				System.out.println("API Testing started 3 tester changes   123");
+
+				System.out.println("API Testing  is started 2nd tester changes");
+				System.out.println("API Testing started 3 tester changes 12323456767");
 				
 				
 				
