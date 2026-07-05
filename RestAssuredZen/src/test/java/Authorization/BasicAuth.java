@@ -14,6 +14,8 @@ public class BasicAuth {
 				RestAssured.baseURI="https://jsonplaceholder.typicode.com";
 				
 				System.out.println("API Testing started");
+				System.out.println("API Testing started 2 tester changes");
+				
 				
 //				given().header("Authorization","Basic cG9zdG1hbjpwYXNzd29yZA==").
 //				when().log().all().get("https://postman-echo.com/basic-auth").
