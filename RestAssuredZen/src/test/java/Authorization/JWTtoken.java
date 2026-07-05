@@ -14,8 +14,12 @@ public class JWTtoken {
 		// TODO Auto-generated method stub
 				RestAssured.baseURI="https://jsonplaceholder.typicode.com";
 				
+
 				System.out.println("API Testing started");
 				System.out.println("API Testing newly added started");
+
+				System.out.println("API Testing Added in main branch started");
+		       System.out.println("new added in main branch");
 				
 				
 				String reqBody= "{\"username\":\"anand\",\"password\":\"anand\"};";
