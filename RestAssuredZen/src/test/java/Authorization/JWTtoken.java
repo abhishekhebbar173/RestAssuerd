@@ -19,8 +19,9 @@ public class JWTtoken {
 				System.out.println("API Testing newly added started");
 
 				System.out.println("API Testing Added in main branch started");
-		       System.out.println("new added in main branch");
-				
+		       System.out.println("new added in main branch Edited in local branch");
+		       
+		       System.out.println("Added in local branch");				
 				
 				String reqBody= "{\"username\":\"anand\",\"password\":\"anand\"};";
 			
